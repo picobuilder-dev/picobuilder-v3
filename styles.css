@@ -309,10 +309,17 @@ a{text-decoration:none;color:inherit;}
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+     cursor: pointer;
 }
 
+
+
 .portfolio-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
+     box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .portfolio-card img {
@@ -437,4 +444,37 @@ a{text-decoration:none;color:inherit;}
 .whatsapp-float:hover{
   transform:scale(1.08);
 
+}
+.portfolio-card {
+    position: relative;
+}
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.portfolio-card:hover .portfolio-overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.45);
+}
+.portfolio-card img {
+    transition: transform 0.4s ease;
+}
+
+.portfolio-card:hover img {
+    transform: scale(1.03);
 }

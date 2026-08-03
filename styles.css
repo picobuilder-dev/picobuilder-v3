@@ -48,13 +48,18 @@ a{text-decoration:none;color:inherit;}
   display:flex;
   justify-content:space-between;
   align-items:center;
-  height:64px;
+  height:100px;
 }
 
 .logo{
-  font-weight:700;
-  font-size:1.2rem;
-  color:#1e3a5f;
+  display:flex;
+  align-items:center;
+}
+
+.logo img{
+  height:80px;
+  width:auto;
+  display:block;
 }
 
 .nav-links{
@@ -65,7 +70,8 @@ a{text-decoration:none;color:inherit;}
 
 .nav-links a{
   color:#475569;
-  font-size:.9rem;
+  font-size:1rem;
+  font-weight:500;
 }
 
 .nav-links a:hover{
@@ -107,6 +113,7 @@ a{text-decoration:none;color:inherit;}
   margin-bottom:.75rem;
 }
 
+
 .hero-supporting{
   font-size:1.2rem;
   color:rgba(255,255,255,.92);
@@ -119,10 +126,9 @@ a{text-decoration:none;color:inherit;}
 }
 .hero-content{
  max-width:620px;
-  margin-left:0;
-  padding-left:4rem;
+  margin-left:180px;
+  padding-left:1.75rem;
 }
-
 /* ================= BUTTONS ================= */
 .btn{
   display:inline-block;

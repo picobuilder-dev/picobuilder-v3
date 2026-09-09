@@ -304,7 +304,7 @@ a{text-decoration:none;color:inherit;}
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -318,7 +318,8 @@ a{text-decoration:none;color:inherit;}
     display: block;
     text-decoration: none;
     color: inherit;
-     cursor: pointer;
+    cursor: pointer;
+    min-width: 0;
 }
 
 
@@ -393,7 +394,10 @@ a{text-decoration:none;color:inherit;}
   }
 
   .hero-content{
-    padding-left:1.25rem;
+    margin-left:0;
+  padding-left:1.25rem;
+  padding-right:1.25rem;
+  max-width:100%;
   }
 
   .hero h1{

@@ -331,7 +331,7 @@ a{text-decoration:none;color:inherit;}
 
 .portfolio-card img {
     width: 100%;
-    height: 240px;
+    aspect-ratio: 16 / 9
     object-fit: cover;
     object-position: top;
     display: block;

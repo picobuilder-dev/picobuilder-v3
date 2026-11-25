@@ -144,7 +144,9 @@ a{text-decoration:none;color:inherit;}
 
 .btn-primary:hover{
   background:#2a5a8f;
-  .btn-outline{
+}
+
+.btn-outline{
   background:transparent;
   color:#fff;
   border:2px solid #fff;
@@ -154,15 +156,17 @@ a{text-decoration:none;color:inherit;}
   background:#fff;
   color:#1e3a5f;
 }
-}
+
 .btn-whatsapp{
-  background:#25D366;
+  background:#117A3D;
   color:#fff;
 }
 
 .btn-whatsapp:hover{
-  background:#1ebe5b;
+  background:#0F6F37;
 }
+
+/* ================= SECTIONS ================= */
 /* ================= SECTIONS ================= */
 .section{
   padding:5rem 0;
@@ -440,12 +444,12 @@ a{text-decoration:none;color:inherit;}
 /* ================= WHATSAPP ================= */
 
 .btn-whatsapp{
-  background:#25D366;
+  background:#117A3D;
   color:#fff;
 }
 
 .btn-whatsapp:hover{
-  background:#1ebe5d;
+  background:#0F6F37;
 }
 
 .whatsapp-float{
